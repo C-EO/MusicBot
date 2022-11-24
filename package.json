@@ -1,0 +1,78 @@
+{
+  "name": "Imperial Bot - Music",
+  "version": "5.0.0-beta",
+  "description": "An easy to use Discord AI that streams music.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "rm-logs": "rm logs.log",
+    "lint": "prettier --check .",
+    "deploy": "node deploy/global",
+    "guild": "node deploy/guild",
+    "ddev": "cd dashboard && npm run dev",
+    "dbuild": "cd dashboard && npm run build && npm run export",
+    "dstart": "cd dashboard && npm run start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://git.c-eo.repl.co/imperialbot/musicbot.git"
+  },
+  "engines": {
+    "node": ">=18.x"
+  },
+  "keywords": [
+    "discord",
+    "discord-bot",
+    "discord-musicbot",
+    "music",
+    "discord-music",
+    "imperialbot"
+  ],
+  "authors": [
+    "SudhanPlayz",
+    "DarrenOfficial",
+    "C-EO"
+  ],
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://git.c-eo.repl.co/imperialbot/musicbot/issues"
+  },
+  "homepage": "https://git.c-eo.repl.co/imperialbot/musicbot#readme",
+  "dependencies": {
+    "@discordjs/builders": "^0.15.0",
+    "@discordjs/rest": "^0.5.0",
+    "axios": "^0.27.0",
+    "better-erela.js-apple": "^0.1.0",
+    "better-erela.js-spotify": "1.3.9",
+    "colors": "1.3.3",
+    "discord-api-types": "0.37.1",
+    "discord-together": "^1.3.25",
+    "discord.js": "^13.8.0",
+    "dotenv": "^16.0.1",
+    "ejs": "^3.1.6",
+    "erela.js": "^2.3.3",
+    "erela.js-deezer": "^1.0.7",
+    "erela.js-facebook": "^1.0.4",
+    "erela.js-filters": "^1.2.6",
+    "express": "^4.17.1",
+    "express-rate-limit": "^6.2.0",
+    "express-session": "^1.17.3",
+    "express-ws": "^5.0.2",
+    "js-yaml": "^4.1.0",
+    "jsoning": "^0.13.0",
+    "lodash": "^4.17.21",
+    "moment": "^2.29.1",
+    "moment-duration-format": "^2.3.2",
+    "node-fetch": "2.6.6",
+    "os": "^0.1.2",
+    "passport": "^0.6.0",
+    "passport-discord": "^0.1.4",
+    "pretty-ms": "^7.0.1",
+    "systeminformation": "^5.9.12",
+    "winston": "^3.3.3",
+    "lyrics-searcher-musixmatch": "1.0.2"
+  },
+  "devDependencies": {
+    "prettier": "2.6.2"
+  }
+}

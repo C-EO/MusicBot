@@ -1,0 +1,40 @@
+# The full repository name
+repo: imperialbot/musicbot
+
+# Service type (gitea or github)
+service: gitea
+
+# Base URL for Gitea instance if using gitea service type (optional)
+# Default: https://gitea.com
+base-url: https://git.c-eo.repl.co
+
+# Changelog groups and which labeled PRs to add to each group
+groups:
+  - 
+    name: FEATURES
+    labels:
+      - enhancement
+  -
+    name: BUGFIXES
+    labels:
+      - bug
+      - help wanted
+  - 
+    name: ENHANCEMENTS
+    labels:
+      - enhancement
+      - suggestion
+  - 
+    name: TESTING
+    labels:
+      - triage
+  - 
+    name: DOCS
+    labels:
+    - docs
+  - 
+    name: MISC
+    default: true
+
+# regex indicating which labels to skip for the changelog
+skip-labels: skip-changelog|backport\/.+
