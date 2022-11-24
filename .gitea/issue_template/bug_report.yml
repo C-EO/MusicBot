@@ -1,0 +1,102 @@
+name: Bug Report
+about: File a bug report
+title: "[Bug]: "
+labels: ["bug", "help wanted"]
+ref: "main"
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this bug report!
+  - type: input
+    id: contact
+    attributes:
+      label: Contact Details
+      description: How can we get in touch with you if we need more info?
+      placeholder: ex. email@example.com
+    validations:
+      required: false
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: Also tell us, what did you expect to happen?
+      placeholder: Tell us what you see!
+      value: "A bug happened!"
+    validations:
+      required: true
+  - type: dropdown
+    id: version
+    attributes:
+      label: Version
+      description: What version of the bot are you running?
+      options:
+        - v4.1.2 (Stable)
+        - v5.0.0 (Beta)
+    validations:
+      required: true
+  - type: dropdown
+    id: systems
+    attributes:
+      label: System Check
+      description: Please define you OS(or VM like Replit).
+      options:
+        -  Raspberry Pi OS 32 bit
+        -  Raspberry Pi OS 64 bit
+        -  Raspberry Pi OS full
+        -  Ubuntu 18.04 (Support Ending)
+        -  Ubuntu 20.04 (LTS)
+        -  Ubuntu 21.10
+        -  Debian 9/10/11
+        -  Arch Linux
+        -  Windows 8 (Support Ending)
+        -  Windows 10
+        -  Windows 11
+        -  Replit
+        -  Heroku
+    validations:
+      required: true
+  - type: dropdown
+    id: prerequisites
+    attributes:
+      label: Other Prerequisites
+      description: Please define other prerequisites.
+      options:
+        -  Discord.JS v12 and lower
+        -  Discord.JS v13 and higher
+        -  Node.JS v14 and lower
+        -  Node.JS v16 and higher
+    multiple: true
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Relevant log output
+      description: Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.
+      render: shell
+  - type: dropdown
+    id: reproduction
+    attributes:
+      label: Bug Reproduction
+      description: Did you try to reproduce the bug on your end?
+      options:
+        - "Yes"
+        - "No"
+    validations: 
+      required: true
+  - type: textarea
+    id: morelogdetails
+    attributes:
+      label: Bug Reproduction (More Details)
+      description: If you answered yes above, please paste your code block below. This will be automatically formatted into code, so need for backticks.
+      placeholder: Paste your code block here.
+      render: shell
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Code of Conduct
+      description: By submitting this issue, you agree to follow our [Code of Conduct](https://git.c-eo.repl.co/imperialbot/musicbot/src/branch/main/docs/code_of_conduct.md) and [Contributing Guidlines](https://git.c-eo.repl.co/imperialbot/musicbot/src/branch/main/docs/contributing.md)
+      options:
+        - label: I agree to follow this project's Code of Conduct and Contributing Guidlines.
+          required: true
