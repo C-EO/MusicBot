@@ -1,5 +1,5 @@
 {
-  "name": "Imperial Bot - Music",
+  "name": "Music Bot",
   "version": "5.0.0-beta",
   "description": "An easy to use Discord AI that streams music.",
   "main": "index.js",
@@ -29,8 +29,6 @@
     "imperialbot"
   ],
   "authors": [
-    "SudhanPlayz",
-    "DarrenOfficial",
     "C-EO"
   ],
   "license": "Apache-2.0",
