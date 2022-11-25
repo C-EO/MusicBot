@@ -14,7 +14,7 @@ const Dashboard = (_props: any) => {
 
     return (<Content>
         <Head>
-            <title>Dashboard | Discord Music Bot</title>
+            <title>Dashboard | Music Bot</title>
         </Head>
 
         <h1>Dashboard</h1>
