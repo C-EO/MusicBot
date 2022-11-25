@@ -62,9 +62,9 @@ body:
       label: Other Prerequisites
       description: Please define other prerequisites.
       options:
-        -  Discord.JS v12 and lower
+        -  Discord.JS v12.5.3
         -  Discord.JS v13 and higher
-        -  Node.JS v14 and lower
+        -  Node.JS v14
         -  Node.JS v16 and higher
     multiple: true
     validations:
