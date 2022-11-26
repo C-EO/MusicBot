@@ -19,7 +19,7 @@ I'm {username}. <!--(Please feel free to add your location. We don't advise and 
 
 ## Please describe the changes this PR makes and why it should be merged:
 
-I have recently just edited one, two, or more---`(You can state the file names here or choose to leave the statement the way it is and just state the file names in the next statement.)` of the files within the Imperial Bot - Music project.
+I have recently just edited one, two, or more---`(You can state the file names here or choose to leave the statement the way it is and just state the file names in the next statement.)` of the files within the Music Bot project.
 I thought my changes may help you guys a lot, so I jumped right into the coding.
 
 Some of the changes I made were *(adding, changing/altering, deleting---choose whichever fits what you carried out)*: `adding output errors to file 1`, `deleting useless packages in file 2`, and ` changing how file 3 will be executed`.
@@ -79,17 +79,17 @@ Place your file code here.
 
 ## Status and versioning classification
 
-Discord.JS version:
+**Discord.JS version:**
 
-Node.JS version: 
+**Node.JS version:**
 
-Bot version: 
+**Bot version:**
 
 ## Checkpoints
 
-[] Code changes have been tested against the Discord API, or there are no code changes
+✅ Code changes have been tested against the Discord API, or there are no code changes
 
-[] I know how to update typings and have done so, or typings don't need updating
+✅ I know how to update typings and have done so, or typings don't need updating
 
 
 I hope my PR helps to open up more doors for improvement to the project.
